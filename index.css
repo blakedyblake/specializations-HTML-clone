@@ -1,0 +1,255 @@
+*{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-family: 'Franklin Gothic';
+
+}
+body{
+    
+    height:1000%;
+}
+header{
+    position: fixed;
+    text-align: left;
+    text-shadow: black 1px 0 10px ;
+}
+header>div{
+    position:fixed;
+    right:10%;
+}
+a{
+    margin:7px
+}
+#start-bootstrap{
+    color:#cca000;
+    font-family: 'Forte','Edwardian Script ITC';
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    text-shadow: white 1px 0 10px 
+}
+h2{
+    text-transform: capitalize;
+    font-style: italic;
+}
+.welcome{
+    position: absolute;
+    background: white url("./header-bg.jpg") no-repeat;
+    background-size:cover;
+    margin:0;
+    height:925px;
+    width: 100%;
+    top:0px;
+    left:0px;
+    
+}
+#tellme{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #cca000;
+    height:3.3em;
+    width: 13.2em;
+    border-radius: 7px;
+
+}
+
+
+.under{
+    position: absolute;
+    top:925px;
+    width: 100%;
+    margin: 0;
+    left:0;
+
+}
+section{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    color:black;
+    border-color: lightblue;
+    border-width: 5px 5px 5px 5px;
+    margin: 0;
+    text-align: center;
+
+}
+h3,h4{
+    color: black;
+    text-align: center;
+
+} 
+p{
+    text-transform: None;
+    color:gray;
+    font-style: italic;
+}
+section.dark{
+    background-color: lightgrey;
+}
+footer{
+    color:black;
+    position: absolute;
+    top:6000px;
+}
+img.icon{
+    width:40px;
+    height:40px;
+}
+
+section>div>section{
+    width:32%;
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0);
+}
+#services>div>section>img{
+    width:75px;
+    height:75px;
+}
+#portfolio{
+    height:1200px
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+
+}
+th{
+    background-color:white;
+    border:200px solid lightgrey;
+}
+#about{
+    height:1400px;
+    text-align: center;
+}
+.circle{
+    position:relative;
+    height:90px;
+    width: 90px;
+    border-radius: 100px;
+    border:5px solid lightgrey;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    margin:100px auto;
+    background:#cca000;
+    z-index: 4;
+    
+    
+
+}
+#line{
+    position:absolute;
+    left: 49.9%;
+    top:40%;
+    z-index: 3;
+
+    margin:0px auto;
+    width:0px;
+    height:1000px;
+    border:1px solid lightgrey;
+}
+#beginnings{
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/1.jpg');
+}
+#born{
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/2.jpg')
+}
+#transition{
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/3.jpg');
+}
+#expansion{
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/about/4.jpg');
+}
+.right>h4, .left>h4{
+    color:black
+}
+.right{
+    position: absolute;
+    right:25%;
+    top:1870px;
+    width:20%;
+}
+.right.second{
+    top:2350px;
+}
+.left{
+    position: absolute;
+    left:25%;
+    top:2120px;
+    width:20%;
+}
+.left.second{
+    top:2600px;
+}
+#team{
+    height:700px;
+}
+#media{
+    height:200px;
+}
+#contact{
+    background: url('https://th.bing.com/th/id/OIP.n0P4kG6hIcd2LYjYjL6THAHaEK?pid=ImgDet&rs=1') no-repeat;
+    background-size:cover;
+    height:900px;
+}
+#parveen{
+    background-image: url('https://th.bing.com/th/id/OIP.ymPytEjOZdMT7gWsS-FWWwAAAA?w=200&h=201&c=7&r=0&o=5&dpr=1.38&pid=1.7');
+}
+#diana{
+    background-image: url('https://th.bing.com/th/id/OIP.rOIPpRnPjQ1XwwQyEzGh3gHaKZ?w=135&h=190&c=7&r=0&o=5&dpr=1.38&pid=1.7');
+}
+#larry{
+    background-image: url('https://th.bing.com/th/id/OIP.pKNJOrcS883ovadJCejg3wHaHa?w=177&h=180&c=7&r=0&o=5&dpr=1.38&pid=1.7');
+}
+.circle.people{
+    height:150px;
+    width:150px;
+    background-position: center;
+    border-color: darkgray;
+}
+section>div>section>img{
+    height: 40px;
+    width:auto;
+}
+#media>div>section{
+    width:20%;
+    margin: 70px 10px;
+}
+h5{
+    padding:60px;
+    font-size: 30px;
+}
+input{
+    color:grey;
+    margin:30px 20px;
+    width:60%;
+    height:40px;
+    text-align:left;
+    padding:0px 10px;
+}
+form>div{
+    width:40%;
+    padding:0px 10px;
+    display: inline-block;
+}
+textarea{
+    text-align:left;
+}
+form>button{
+    position: absolute;
+    left:42%;
+    top:4750px;
+    height:50px;
+    width:200px;
+    background-color: #cca000;
+}
+
+
+footer>a{
+    color:black;
+    text-transform: capitalize;
+    margin:0px 80px;
+    padding:30px 0px;
+    height:10px;
+}
